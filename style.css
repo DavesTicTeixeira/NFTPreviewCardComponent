@@ -1,0 +1,101 @@
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.container:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.img_hover{
+
+    color: black;
+}
+
+.main-img {
+    max-width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    z-index: 0;
+}
+
+
+h1 {
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.description {
+
+    background-color: hsl(216, 50%, 16%);
+    font-size: 18px;
+    margin-top: 9px;
+    font-weight: 400;
+    align-self: flex-start;
+
+}
+
+.auction {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    font-weight: 700;
+
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.divider {
+    border: solid 1px hsl(215, 51%, 70%);
+    width: 100%;
+}
+
+.author {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.avatar {
+    width: 36px;
+    border: solid 1px white;
+    border-radius: 100%;
+    margin-right: 18px;
+}
+
+.author_over:hover {
+
+    color: hsl(178, 100%, 50%);
+}
