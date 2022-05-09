@@ -21,9 +21,28 @@ body {
     color: hsl(178, 100%, 50%);
 }
 
-.img_hover{
+.img {
+    position: relative;
+}
 
-    color: black;
+.eyeover {
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(215, 51%, 70%);
+    opacity: 0;
+    border-radius: 10px;
+
+}
+
+.eyeover:hover {
+
+    opacity: .7;
+
 }
 
 .main-img {
@@ -32,6 +51,11 @@ body {
     background-repeat: no-repeat;
     border-radius: 18px;
     z-index: 0;
+}
+
+.main-img:hover {
+    opacity: 0.1;
+    background-color:  hsl(215, 51%, 70%);
 }
 
 
